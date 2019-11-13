@@ -131,7 +131,7 @@ if (false)
 }
 ```
 
-#### Chainin If Statements
+#### Chaining If Statements
 
 ```cs
 if (false)
@@ -165,7 +165,75 @@ else
 
 #### Switch
 
-// ToDo 
+Simple `==` comparationm the code that will be executed is the one with the matching pattern branch.
+If none of the branches match the code executed will be the une under the `default` keyword
+
+```cs
+int foo = 2;
+switch (foo){
+    case 1:
+        break;
+    case 2:
+        break;
+    case 3:
+        break;
+    default:
+        break;
+}
+```
+
+### Data Types
+
+
+#### Integral numeric types
+
+Can hold a Integer number without any decimal part.
+
+##### Signed
+
+They store the value and if they are positive or negative numbers
+
+| Type | Range | Size |
+| :---: | :---: | :---: |
+| sbyte | -128 to 127 | 1 byte |
+| short | -32.768 to 32.767 | 2 bytes |
+| int | -2.147.483.648 to 2.417.483.647 | 4 bytes |
+| long | -9.223.372.036.854.755.808 to 9.223.372.036.854.775.807 | 8 bytes |
+
+##### UnsignedSigned
+
+Can store larger numbers but they cannot store if they are positive or negative
+
+| Type | Range | Size |
+| :---: | :---: | :---: |
+| byte | 0 to 255 | 1 byte |
+| ushort | 0 to 65.535 | 2 bytes |
+| uint | 0 to 4.294.967.295 | 4 bytes |
+| ulong | 0 to 18.446.744.073.709.551.615 | 8 bytes |
+
+#### Floating point numeric types
+
+// To Do
+
+#### Boolean
+
+// To Do
+
+#### Character
+
+// To Do
+
+#### Enum
+
+// To Do
+
+#### Struct
+
+// To Do
+
+### Variables
+
+A variable is something that keeps a value in a way so it can be used / changed later in the code
 
 ### Loops
 
@@ -191,8 +259,33 @@ while (condition)
 
 #### DoWhile Loop
 
-// ToDo 
+Same as do loop but the code inside will be executed at least once.
+
+```cs 
+do
+{
+    // This code is repeated till the condition is false
+} while (condition):
+```
 
 #### ForFach Loop
 
-// ToDo 
+Iterates trougth all the elements in a collection 
+
+```cs
+List<Things> = new List<Tings>();
+foreach(Thing in things)
+{
+    // Code Here
+}
+```
+
+## Exercises
+
+### Arithmetic
+
+#### Simple
+
+* Check if a number is odd or even
+
+#### With loops
