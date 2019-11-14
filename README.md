@@ -59,7 +59,7 @@ On some language you can use '+' to concatenate strings
 | true | && | true  | --> | true  |
 | true | && | false | --> | false |
 | false| && | true  | --> | false |
-| false| && | false | --> | true  |
+| false| && | false | --> | false |
 
 #### Or ( || )
 
