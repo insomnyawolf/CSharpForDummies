@@ -185,7 +185,7 @@ switch (foo){
 ### Data Types
 
 
-#### Integral numeric types
+#### Integer types
 
 Can hold a Integer number without any decimal part.
 
@@ -217,19 +217,69 @@ Can store larger numbers but they cannot store if they are positive or negative
 
 #### Boolean
 
-// To Do
+Can hold exactly two states: `true` or `false`
+
+```cs
+bool isEnabled = true;
+//Code
+isEnabled = false;
+```
 
 #### Character
 
-// To Do
+Can hold a single character of a text. This datatype depends on the encoding. UTF8 has variable sizes of each character, cause the table is extended.
+
+```cs
+char myChar;
+myChar = 'h';
+string myString = "Hello";
+myString+=myChar; //Append the character
+//Content in myString: Helloh
+```
 
 #### Enum
 
-// To Do
+Enums are enumerables, which is a pseudo data type that can hold several enumerable states.
+
+```cs
+enum AudioFormat : byte
+{
+    MP3 = 0,
+    AAC = 1,
+    OPUS = 2,
+    VORBIS = 3
+}
+
+AudioFormat format;
+
+format = AudioFormat.MP3;
+```
+This is used when you want to store a state or a type in a variable but make it easier for the human to be readable in code.
 
 #### Struct
 
-// To Do
+With a struct, you can put multiple variables into one variable.
+
+```cs
+struct Vector
+{
+    double x;
+    double y;
+    double z;
+}
+
+Vector myVec = { 1.1231, 1.44533, 4.232323 };
+
+Console.WriteLine(myVec.x);
+Console.WriteLine(myVec.y);
+Console.WriteLine(myVec.z);
+
+/* Prints
+ * 1.1231
+ * 1.44533
+ * 4.232323
+ */
+```
 
 ### Variables
 
