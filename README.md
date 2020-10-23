@@ -197,7 +197,7 @@ They store the value and if they are positive or negative numbers
 | :---: | :---: | :---: |
 | sbyte | -128 to 127 | 1 byte |
 | short | -32.768 to 32.767 | 2 bytes |
-| int | -2.147.483.648 to 2.417.483.647 | 4 bytes |
+| int | -2.147.483.648 to 2.147.483.647 | 4 bytes |
 | long | -9.223.372.036.854.755.808 to 9.223.372.036.854.775.807 | 8 bytes |
 
 ##### UnsignedSigned
