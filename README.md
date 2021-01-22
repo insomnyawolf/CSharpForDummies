@@ -102,6 +102,16 @@ On some language you can use '+' to concatenate strings
 | 1 | <= | 1 | --> | true  |
 | 0 | <= | 1 | --> | true  |
 
+#### Equal ( == )
+
+| Value 1 | Comparator | Value 2 | | Result |
+| :---: | :---: | :---: | :---: | :---: |
+| 1 | == | 0 | --> | false |
+| 1 | == | 1 | --> | false |
+| "Hello" | == | "Hello" | --> | true  |
+| "Hello" | == | "World" | --> | false  |
+
+
 #### Not ( ! )
 
 | Expresion | | Result |
